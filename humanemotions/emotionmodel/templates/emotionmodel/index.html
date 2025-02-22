@@ -6,7 +6,24 @@
     <title>AI Emotion Detector</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
+        .title{
+            width: 30%;
+            
+            margin-bottom: 15px;
+            padding: 22px;
+            border-radius: 10px;
+            border: none;
+            font-size: 26px;
+            outline: none;
+            resize: none;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            display: flex;
+            padding : 5px;
+            justify-content: center;
+        }
         body {
+            transform: translateY(-100px);
             background: linear-gradient(135deg, #667eea, #764ba2);
             font-family: 'Poppins', sans-serif;
             text-align: center;
@@ -15,6 +32,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 100vh;
         }
         .container {
@@ -77,6 +95,7 @@
     </style>
 </head>
 <body>
+    <div class="title">MOOD SCAPE</div>
     <div class="container">
         <h2>AI Emotion Detector</h2>
         <form method="POST">
